@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="tests" thread-count="25">
+    <test name="Test1">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+         <classes>
+            <class name="Test1"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+         
+        <classes>
+            <class name="Test2"/>
+        </classes>
+    </test>
+     <test name="Test3">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test3"/>
+        </classes>
+    </test>
+     <test name="Test4">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test4"/>
+        </classes>
+    </test>
+     <test name="Test5">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test5"/>
+        </classes>
+    </test>
+    <test name="Test6">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test6"/>
+        </classes>
+    </test>
+    <test name="Test7">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test7"/>
+        </classes>
+    </test>
+    <test name="Test8">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test8"/>
+        </classes>
+    </test>
+    <test name="Test9">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test9"/>
+        </classes>
+    </test>
+    <test name="Test10">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test10"/>
+        </classes>
+    </test> 
+    
+     <test name="Test61">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test61"/>
+        </classes>
+    </test> <test name="Test62">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test62"/>
+        </classes>
+    </test> <test name="Test63">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test63"/>
+        </classes>
+    </test> <test name="Test65">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test65"/>
+        </classes>
+    </test> <test name="Test66">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test66"/>
+        </classes>
+    </test> <test name="Test67">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test67"/>
+        </classes>
+    </test> <test name="Test68">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test68"/>
+        </classes>
+    </test> <test name="Test69">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test69"/>
+        </classes>
+    </test>
+     <test name="Test70">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test70"/>
+        </classes>
+    </test> <test name="Test71">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test71"/>
+        </classes>
+    </test> <test name="Test72">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test72"/>
+        </classes>
+    </test> <test name="Test73">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test73"/>
+        </classes>
+    </test>
+     <test name="Test74">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test74"/>
+        </classes>
+    </test> <test name="Test75">
+        <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+         <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub" />
+        <classes>
+            <class name="Test75"/>
+        </classes>
+    </test>
+    
+    
+</suite>
+
+

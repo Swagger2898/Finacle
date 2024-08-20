@@ -1,0 +1,349 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 23, Errors: 0, Skipped: 23, Time elapsed: 125.903 s <<< FAILURE! - in TestSuite
+Test67.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.755 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test67.setUp(Test67.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test67.setUp(Test67.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test63.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.756 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test63.setUp(Test63.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test63.setUp(Test63.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test71.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.758 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test71.setUp(Test71.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test71.setUp(Test71.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test68.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.76 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test68.setUp(Test68.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test68.setUp(Test68.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test4.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.762 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test4.setUp(Test4.java:44)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test4.setUp(Test4.java:44)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test2.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.765 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test2.setUp(Test2.java:45)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test2.setUp(Test2.java:45)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test5.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.765 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test5.setUp(Test5.java:45)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test5.setUp(Test5.java:45)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test61.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.765 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test61.setUp(Test61.java:40)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test61.setUp(Test61.java:40)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test65.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 7.771 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test65.setUp(Test65.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test65.setUp(Test65.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test69.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test69.setUp(Test69.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test69.setUp(Test69.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test66.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test66.setUp(Test66.java:40)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test66.setUp(Test66.java:40)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test74.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test74.setUp(Test74.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test74.setUp(Test74.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test73.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0.006 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test73.setUp(Test73.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test73.setUp(Test73.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test3.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test3.setUp(Test3.java:45)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test3.setUp(Test3.java:45)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test10.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test10.setUp(Test10.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test10.setUp(Test10.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test75.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test75.setUp(Test75.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test75.setUp(Test75.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test9.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test9.setUp(Test9.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test9.setUp(Test9.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test62.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test62.setUp(Test62.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test62.setUp(Test62.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test72.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test72.setUp(Test72.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test72.setUp(Test72.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test6.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test6.setUp(Test6.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test6.setUp(Test6.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test70.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0.002 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test70.setUp(Test70.java:41)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test70.setUp(Test70.java:41)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test8.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test8.setUp(Test8.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test8.setUp(Test8.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+
+Test7.setUp[C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe, http://10.51.10.32:4444/wd/hub](0)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAFESTRO', ip: '10.51.10.22'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}}
+	at Test7.setUp(Test7.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+	at Test7.setUp(Test7.java:42)
+Caused by: java.net.ConnectException: connection timed out: /10.51.10.32:4444
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /10.51.10.32:4444
+

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="25" parallel="tests" name="Failed suite [ParallelTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="25" parallel="tests" name="Test70(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test70">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test70 -->
+    </classes>
+  </test> <!-- Test70(failed) -->
+  <test thread-count="25" parallel="tests" name="Test65(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test65">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test65 -->
+    </classes>
+  </test> <!-- Test65(failed) -->
+  <test thread-count="25" parallel="tests" name="Test62(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test62">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test62 -->
+    </classes>
+  </test> <!-- Test62(failed) -->
+  <test thread-count="25" parallel="tests" name="Test74(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test74">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test74 -->
+    </classes>
+  </test> <!-- Test74(failed) -->
+  <test thread-count="25" parallel="tests" name="Test8(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test8">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test8 -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test thread-count="25" parallel="tests" name="Test67(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test67">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test67 -->
+    </classes>
+  </test> <!-- Test67(failed) -->
+  <test thread-count="25" parallel="tests" name="Test4(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test4">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test4 -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="25" parallel="tests" name="Test10(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test10">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test10 -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="25" parallel="tests" name="Test63(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test63">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test63 -->
+    </classes>
+  </test> <!-- Test63(failed) -->
+  <test thread-count="25" parallel="tests" name="Test68(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test68">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test68 -->
+    </classes>
+  </test> <!-- Test68(failed) -->
+  <test thread-count="25" parallel="tests" name="Test72(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test72">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test72 -->
+    </classes>
+  </test> <!-- Test72(failed) -->
+  <test thread-count="25" parallel="tests" name="Test75(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test75">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test75 -->
+    </classes>
+  </test> <!-- Test75(failed) -->
+  <test thread-count="25" parallel="tests" name="Test2(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test2">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="25" parallel="tests" name="Test3(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test3 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="25" parallel="tests" name="Test66(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test66">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test66 -->
+    </classes>
+  </test> <!-- Test66(failed) -->
+  <test thread-count="25" parallel="tests" name="Test73(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test73">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test73 -->
+    </classes>
+  </test> <!-- Test73(failed) -->
+  <test thread-count="25" parallel="tests" name="Test5(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test5">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test5 -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="25" parallel="tests" name="Test71(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test71">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test71 -->
+    </classes>
+  </test> <!-- Test71(failed) -->
+  <test thread-count="25" parallel="tests" name="Test9(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test9">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test9 -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+  <test thread-count="25" parallel="tests" name="Test6(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test6">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test6 -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="25" parallel="tests" name="Test69(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test69">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test69 -->
+    </classes>
+  </test> <!-- Test69(failed) -->
+  <test thread-count="25" parallel="tests" name="Test61(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test61">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Test61 -->
+    </classes>
+  </test> <!-- Test61(failed) -->
+  <test thread-count="25" parallel="tests" name="Test7(failed)" verbose="0">
+    <parameter name="webdriverPath" value="C:\\Users\\asaph\\eclipse-workspace\\ParralelTesting\\src\\main\\java\\Drivers\\msedgedriver.exe"/>
+    <parameter name="nodeUrl" value="http://10.51.10.32:4444/wd/hub"/>
+    <classes>
+      <class name="Test7">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test7 -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+</suite> <!-- Failed suite [ParallelTestSuite] -->
